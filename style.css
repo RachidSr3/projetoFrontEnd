@@ -221,8 +221,8 @@ ul .social-icons li svg{
 
   /*-----------------------Scrollbar from section [only]-------------*/
   .section-scrollbar {
-    overflow-y: scroll;
-    overflow-x: hidden;
+    
+  
   }       
 
 
@@ -335,7 +335,6 @@ ul .social-icons li svg{
    .picturesquare{
      background-repeat: repeat-y;
      background-image: url("/colours.jpg");
-     background-attachment: fixed;
    }
 
 
@@ -343,8 +342,8 @@ ul .social-icons li svg{
     .picture {
       background-image: url("./colours.jpg");
       background-repeat: repeat-y;
-      height: 200em;
-      width: 95rem;
+      height: 250em;
+      width: 95.30rem;
       position: absolute; 
       /* [Absolute] permite a propriedade se manter fixa e independente 
       [relative] permite o objeto se manter acima de outro objeto, em destaque, Above*/
@@ -549,3 +548,5 @@ ul .social-icons li svg{
     position: absolute;
     
   }
+   
+
