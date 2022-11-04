@@ -201,8 +201,9 @@ ul .social-icons li svg{
 
   /*-------------------Cabeçalho---------------------*/
   .head{
-    height: 6em;
+    height: 7rem;
     background-color: rgb(81, 1, 142);
+    border-bottom: rgba(255, 255, 255, 0.903) 1px thick double;
 }
 
 
@@ -220,11 +221,12 @@ ul .social-icons li svg{
 
 
   /*-----------------------Scrollbar from section [only]-------------*/
-  .section-scrollbar {
     
-  
-  }       
-
+.section-scrollbar{
+  background-color:#F0F8FF;  
+  height:250rem; 
+  width:99.85%;
+}
 
 
   /*----------------------------1st Title Poem---------------------------- */
@@ -545,8 +547,5 @@ ul .social-icons li svg{
     margin-top: 5.20em;
     margin-left: 5em;
     margin-right: 0 auto;
-    position: absolute;
-    
+    position: absolute; 
   }
-   
-
