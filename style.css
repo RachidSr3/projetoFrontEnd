@@ -62,7 +62,8 @@ nav.navbar {
   height: 10px;
   width: 100%;
   text-align: center;
- }
+ } 
+
 
 nav.navbar .menu { /*--- principal navbar(page 2)--*/
   /*------------ Removes standard list styling. Hide bullets, remove padding. ------------------*/
@@ -100,15 +101,15 @@ nav.navbar .social-icons svg {
 }
 
 .menu {
-  font-size: 25px;
-  color: #121212;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+ 
 }
 
-ul .social-icons li svg{
+ .social-icons li svg{
   background-color:rgb(90, 202, 55);
   justify-content: end;
-  justify-content: center;
   float: left;
   clear: left;
 }
@@ -118,85 +119,39 @@ ul .social-icons li svg{
 /*---------------links navbar green hover over----------------*/
  a:hover{
   color: rgb(117, 248, 78);
-  border-radius: 0;
 }
- 
+
+
 
   /*-------------Grade dos links li href-------------------*/
 
-  .Home {
-    float: right;
+  #home {
     font-family: 'Gemunu Libre', sans-serif;
-    position: absolute;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 22px;
+    position: relative;
+    padding-left:55rem;
+    font-size: 30px;
+    clear: left;
     }
 
-  .Poetry {
-  float: right;
-  position: absolute;
-  margin-left: 20px;
-  margin-right: 20px;
-  justify-content: right;
-  font-size: 22px;
+  #poetry {
+  position: relative;
+  font-size: 30px;
   font-family: 'Gemunu Libre', sans-serif;
   }
   
-  .Files {
-   float: right;
+  #projects {
    position: relative;
-   margin-left: 20px;
-   margin-right: 20px;
-   justify-content: right;
-   font-size: 22px;
+   font-size: 30px;
    font-family: 'Gemunu Libre', sans-serif;
    }
  
-   .Contents {
-   float: right;
+   
+   #about-me {
    position: relative;
-   margin-left: 20px;
-   margin-right: 20px;
-   font-size: 22px;
+   font-size: 30px;
    font-family: 'Gemunu Libre', sans-serif;
   }
- 
-   
-   .Documents {
-   float: right;
-   position: relative;
-   margin-left: 20px;
-   margin-right: 20px;
-   justify-content: right;
-   font-size: 22px;
-   font-family: 'Gemunu Libre', sans-serif;
-   
-  }
 
-  
-
-
-
-  /*------------- navigation bar links module----------------*/
-  #nave ul {
-    list-style: none;
-    padding: 0px;
-    margin-left: 0px;
-  }
-
-  #nave ul li {
-    border-left: 3px solid orange;
-    display: inline-block;
-    text-align: right;
-    font-size: 20px;
-    padding: 10px 10px 10px 10px;
-  }
-  
-  #nave li a:hover{
-    background-color: goldenrod;
-    overflow: hidden;
-  }
 
 
   /*-------------------Cabeçalho---------------------*/
@@ -222,7 +177,7 @@ ul .social-icons li svg{
 
   /*-----------------------Scrollbar from section [only]-------------*/
     
-.section-scrollbar{
+.section{
   background-color:#F0F8FF;  
   height:250rem; 
   width:99.85%;
@@ -340,7 +295,7 @@ ul .social-icons li svg{
    }
 
 
-   /* Imagem Bakground Principal*/
+   /* [page 1] Imagem Bakground Principal*/
     .picture {
       background-image: url("./colours.jpg");
       background-repeat: repeat-y;
@@ -370,6 +325,19 @@ ul .social-icons li svg{
     margin-top: 10em;
     }
 
+
+    /*---[Page 2]--Imagem Principal--- */
+    .pic{
+        background-image: url("./colours.jpg");
+        background-repeat: repeat-y;
+        height: 250em;
+        width: 200rem;
+        position: absolute; 
+        /* [Absolute] permite a propriedade se manter fixa e independente 
+        [relative] permite o objeto se manter acima de outro objeto, em destaque, Above*/
+        -webkit-box-reflect: below 0px linear-gradient(transparent, rgb(223, 214, 93));
+        opacity: 0.8;
+      }
 
   /*-------------------------------Input Caixa Section----------------------------*/
  .cxentrada {
@@ -547,5 +515,6 @@ ul .social-icons li svg{
     margin-top: 5.20em;
     margin-left: 5em;
     margin-right: 0 auto;
-    position: absolute; 
+    position: absolute;
+    
   }
