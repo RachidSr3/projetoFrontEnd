@@ -1,8 +1,3 @@
-layout: page
-
-title: About me
-permalink: /about-me
-
 <!Doctype html>
 <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet"> 
