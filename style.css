@@ -65,14 +65,13 @@ nav.navbar {
  } 
 
 
-nav.navbar .menu { /*--- principal navbar(page 2)--*/
-  /*------------ Removes standard list styling. Hide bullets, remove padding. ------------------*/
+nav.navbar .menu { /*--- [page2] navbar--*/
+  /*------------ Remove o padrao de estilização de lista. Hide bullets, remove padding. ------------------*/
   list-style: none;
   padding-bottom: 1em;
-  padding-left: 30em;
-  /*-- Make menu expand to fill most of the space in the menubar ------------------*/
-  
-}
+  padding-left: 65em;
+  /*-- Expande o menu afim de preencher o maior espaço possível no menubar ------------------*/
+} 
 
 nav.navbar .menu li {
   /*------------ Makes menu list items display horizontally rather than vertically ----------------------*/
@@ -81,7 +80,7 @@ nav.navbar .menu li {
 
 /* Add some spacing between the menu items */
 nav.navbar .menu li:not(:first-child) {
-  padding-left: 1em;
+  padding-left: 10px;
 }
 
 nav.navbar .social-icons {
@@ -89,10 +88,6 @@ nav.navbar .social-icons {
   list-style: none;
 }
 
-nav.navbar .social-icons li {
-  /*----------------- Makes social list items display horizontally rather than vertically------- */
-  display: inline;
-}
 
 nav.navbar .social-icons svg {
   width: 20px;
@@ -100,27 +95,30 @@ nav.navbar .social-icons svg {
   padding-top: 5rem;
 }
 
+
 .menu {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
- 
 }
 
- .social-icons li svg{
-  background-color:rgb(90, 202, 55);
+
+ .social-icons {
+  display: flex;
   justify-content: end;
-  float: left;
   clear: left;
 }
 
 
 
 /*---------------links navbar green hover over----------------*/
- a:hover{
+li a:hover{
   color: rgb(117, 248, 78);
 }
 
+li a:link {
+  color: green;
+}
 
 
   /*-------------Grade dos links li href-------------------*/
@@ -128,9 +126,8 @@ nav.navbar .social-icons svg {
   #home {
     font-family: 'Gemunu Libre', sans-serif;
     position: relative;
-    padding-left:55rem;
     font-size: 30px;
-    clear: left;
+    clear: right;
     }
 
   #poetry {
@@ -518,3 +515,5 @@ nav.navbar .social-icons svg {
     position: absolute;
     
   }
+   
+
