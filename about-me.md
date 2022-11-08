@@ -1,6 +1,5 @@
 layout: page
-
-title: About me
+title: About Me
 permalink: /about-me
 
 <!Doctype html>
