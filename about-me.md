@@ -1,3 +1,9 @@
+---
+layout: page
+title: about me
+url-path:/about-me
+---
+
 <!Doctype html>
 <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet"> 
