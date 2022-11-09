@@ -112,12 +112,14 @@ nav.navbar .social-icons svg {
 
 
 /*---------------links navbar green hover over----------------*/
-li a:hover{
-  color: rgb(117, 248, 78);
+
+a:hover{
+  color: greenyellow;
 }
 
-li a:link {
-  color: green;
+a {
+  color: currentColor;
+  font-weight: bold;
 }
 
 
@@ -127,7 +129,6 @@ li a:link {
     font-family: 'Gemunu Libre', sans-serif;
     position: relative;
     font-size: 30px;
-    clear: right;
     }
 
   #poetry {
@@ -163,6 +164,7 @@ li a:link {
     font-family: 'Gemunu Libre', sans-serif;
     padding-left: 5%;
     font-size: 38px;
+    font-weight: bold;
   }
    
 
@@ -418,12 +420,7 @@ li a:link {
     clear: left;
   }
 
-   .glyph {
-    list-style: none;
-    display: flex;
-    padding-right: 35em;
-    margin-bottom: 40em;
-  }
+ 
 
 
   .box-2 {
