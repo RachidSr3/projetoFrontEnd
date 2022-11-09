@@ -22,7 +22,7 @@
 <body>
   <header style="background-color: #4B0082; height: 60px; width: 100%;">
     
-      <p class="head-title" style="color:rgb(41, 140, 19);">
+      <p class="head-title" style="color:rgb(41, 140, 19)">
         Developer Webmaster</p>
       
   
@@ -43,24 +43,22 @@
     
          <li>
            <a href="#" class="hvr-pulse-grow">
-             <img src="./twitter.png" height="33" width="31">
-           </a>
-         </li>
-     </ul>
-  
+            <img src="./twitter.png" height="33" width="31">
+          </a>
+        </li>
+      </ul>
     </nav>
   </header>
   
   
   <section class="section-scrollbar" style="background-color:#F0F8FF; height:500px; width:100%;">
     <div class="container-area">
-     <img class="pic">
+       <img class="pic">
+  
+    
       <div class="box">   
         <p class="about">Permita-me apresentar:</p> 
-            
-          <ul class="glyph">        
-            <img class="aviao-de-papel" src="./paper-plane.png" height="33" width="33">
-
+            <ul>
              <p class="contact">
               Estudante apaixonado por tecnologia e programação, esforçado em aprender, boa
               coordenação e flexibilidade para se adaptar em novos contextos.
@@ -70,13 +68,12 @@
               novo busco por explorar novas linguagens e adquirir o conhecimento necessário para
               meu crescimento. Pessoa em transição de carreira com objetivo para web developer
               fullstack.
-             </p> 
-             </div>
-          </ul>
-
-            <div class="box-2">
+             </p>  
+           </ul>
+         </div>
+        <div class="box-2">
          
-              <img class="dice" src="./dice-d20.png" width="35" height="35">
+            <img class="dice" src="./dice-d20.png" width="35" height="35">
               
               
               <p class="about-2">
@@ -90,16 +87,16 @@
               na certeza de que uma alma jovem nunca cessa, buscador do conhecimento, espiritualista e filósofo,<br> neurocientista.
               Vejo a vida de uma perspectiva peculiar onde vou de encontro a várias nuances<br> de mim mesmo diáriamente disparados choques de sensações e emoções. 
               <br>Sinto profundo toque no desejo de aprender e buscar, sentindo cada detalhe unicamente e<br> intrinseca a realidade que me rodeia.
+          
               </p>
-            </div>
         </div>
+    </div>
 
-<div class="box-3">
-  <p class="about3">
+  <div class="box-3">
+    <p class="about3">
   Conhecimentos +3
-  </p>
-
-  <p class="about4">
+    </p>
+    <p class="about4">
 HTML 
 
 CSS 
@@ -107,20 +104,7 @@ CSS
 Javascript 
 
     </p>
-  </div>
-</section>
-
-<!--
-  <article style="width: 100%; height: 300px; background-color:#F0F8FF;">
-  
-    <div id="imgcontainer">
-     <div class="img2">
-      </div>
-       </div>
-    </article>
-  -->
-
- 
-</body>
-
+   </div>
+  </section>
+ </body>
 </html>
