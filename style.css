@@ -156,7 +156,6 @@ a {
   .head{
     height: 7rem;
     background-color: rgb(81, 1, 142);
-    border-bottom: rgba(255, 255, 255, 0.903) 1px thick double;
 }
 
 
@@ -172,16 +171,21 @@ a {
     margin: 0 auto;
     }
 
-
-
   /*-----------------------Scrollbar from section [only]-------------*/
     
 .section{
-  background-color:#F0F8FF;  
-  height:250rem; 
-  width:99.85%;
+  height: 350rem; 
+  width: 99.85%;
 }
 
+/* 2a Section */
+.backgrnd-img{
+  background: url(./riodejaneiro.jpg);
+  padding-top: 55em;
+  padding-bottom: 30em;
+  background-position: center bottom;
+  background-size: cover;
+}
 
   /*----------------------------1st Title Poem---------------------------- */
   .titulo {
@@ -202,29 +206,55 @@ a {
   }
 
 
+  .box{
+    width: 70rem;
+    height: 20rem;
+    margin: 6rem 13rem 6rem;
+    background-color: rgb(246, 246, 246);
+    opacity: 0.7;
+    border-radius:5%;
+    border: 8px groove black;
+  }
+
+  .contact {
+    display: flex;
+    font-family: 'Rokkitt', serif;
+    font-size: 1.10em;
+    font-weight: 600;
+    margin:2rem 1rem 0px;
+    align-content: center;
+      justify-content: center;  /* Alinha o objeto horizontalmente */
+      /* align-items: center; Alinha o objeto verticalmente */
+    
+   }
+
+   .about{
+    font-family:'Lobster Two', cursive;
+    font-size: 40px;
+    margin:2rem 15rem 0px;
+    color:goldenrod;
+    line-height: 1.1;
+    text-decoration-line: underline;
+}
+
   .boxtext {
    width: 65em;
    height: 70em;
+   margin: 10rem 15em 0em;
    background-color: antiquewhite;
    border-style:dashed;
-   position: relative;
-   margin-left: 5em;
    opacity: 0.7;
   }
 
 
   .box-tao {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-  margin-top: 8em; 
-  padding: 2em 2em;
-  width: 65em;
-   height: 100em;
+   display: flex;
+   margin: 25em 15em 0em;
+   padding: 10em 5em;
+   width: 55em;
+   height: 110em;
    background-color: antiquewhite;
    border-style:dashed;
-   position: relative;
-   margin-left: 5em;
    opacity: 0.7;
 }
 
@@ -276,36 +306,31 @@ a {
   }
 
 
-/*-------------------------------Section----------------------------------------*/
-
-.container-area {
-  position: relative;
-  display: inline-grid;
-  width: 2000vw;
- }
 
 
 /*---------------------------------Imagem Color-Bubble-------------------------------*/
 
 
-   .picturesquare{
+   /*.picturesquare{
      background-repeat: repeat-y;
      background-image: url("/colours.jpg");
-   }
+
+   } */
 
 
-   /* [page 1] Imagem Bakground Principal*/
-    .picture {
-      background-image: url("./colours.jpg");
+   /*----------[page 1] Imagem Bakground Principal-------*/
+    /*.picture {
+      
+     /* background-image: url("./colours.jpg");
       background-repeat: repeat-y;
       height: 250em;
       width: 95.30rem;
       position: absolute; 
       /* [Absolute] permite a propriedade se manter fixa e independente 
       [relative] permite o objeto se manter acima de outro objeto, em destaque, Above*/
-      -webkit-box-reflect: below 0px linear-gradient(transparent, rgb(223, 214, 93));
-      opacity: 0.8;
-    }
+      /*-webkit-box-reflect: below 0px linear-gradient(transparent, rgb(223, 214, 93));
+      opacity: 0.8;*/
+    
     
 
     .Texto {
@@ -318,26 +343,15 @@ a {
     .pict {
     width: 60rem;
     height: 40em; 
-    justify-content: end;
     position: relative;
-    margin-left: 6em;
-    margin-top: 10em;
+    margin: 16em 6em 2rem;
     }
 
 
     /*---[Page 2]--Imagem Principal--- */
-    .pic{
-        background-image: url("./colours.jpg");
-        background-repeat: repeat-y;
-        height: 250em;
-        width: 200rem;
-        position: absolute; 
-        /* [Absolute] permite a propriedade se manter fixa e independente 
-        [relative] permite o objeto se manter acima de outro objeto, em destaque, Above*/
-        -webkit-box-reflect: below 0px linear-gradient(transparent, rgb(223, 214, 93));
-        opacity: 0.8;
-      }
+    
 
+      
   /*-------------------------------Input Caixa Section----------------------------*/
  .cxentrada {
   margin-left: 50px;
@@ -367,47 +381,23 @@ a {
 
 
   /*------------!!!--------Contact Page[Anchor]---------!!!------------*/
-
+/*
   .box {
-    position: relative;
     width: 60em;
-    height: 30em;
-    position: relative;
-    margin-top: 2em;
-    margin-left: 15rem;
-    bottom: 0px;
-    border: 1px solid;
+    height: 20em;
+    bottom: 5em;
+    border-radius: 10%;
     background-color: ghostwhite;
     opacity: 0.8;
-    border-style:dashed;
-    border-width: 3px;
-    background-origin: inherit; /* [inherit] Propriedade linka a um objeto majoritário, 
+    border: 3px solid;
+    border-style: dashed;
+    /* [inherit] Propriedade linka a um objeto majoritário, 
     seguirá instantaneo os comandos do objeto major */
-  }
+  
 
-  .about{
-      display: relative;
-      font-family: 'Lobster Two', cursive;
-      font-size: 40px;
-      margin-left: 6rem;
-      margin-top: 5rem;
-      margin-bottom: 1em;
-      color:goldenrod;
-      line-height: 1.1;
-      text-decoration-line: underline;
-  }
 
-  .contact {
-    display: flex;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.10em;
-    margin-left: 0.10rem;
-    position: absolute;
-    text-align: left;
-    justify-content: center;  /* Alinha o objeto horizontalmente */
-      /* align-items: center; Alinha o objeto verticalmente */
-    
-   }
+
+  
 
    
    .aviao-de-papel {
