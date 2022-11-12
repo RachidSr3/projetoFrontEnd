@@ -174,7 +174,7 @@ a {
   /*-----------------------Scrollbar from section [only]-------------*/
     
 .section{
-  height: 355rem; 
+  height: 400rem; 
   width: 99.85%;
 }
 
@@ -248,8 +248,9 @@ a {
 
   .box-tao {
    display: flex;
+   flex-direction: column;
    margin: 19em 15em 0em;
-   padding: 10em 5em;
+   padding: 3em 5em;
    width: 55em;
    height: 110em;
    background-color: antiquewhite;
