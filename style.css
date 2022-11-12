@@ -174,7 +174,7 @@ a {
   /*-----------------------Scrollbar from section [only]-------------*/
     
 .section{
-  height: 350rem; 
+  height: 355rem; 
   width: 99.85%;
 }
 
@@ -192,15 +192,14 @@ a {
     font-family: 'Birthstone Bounce', cursive;
     font-size: 2.40em;
     font-weight: bold;
-    margin-left: 8em;
-    margin-top: 1.40em;
+    margin: 1.40em 9em 0em;
     position: relative;
   }
 
   .times {
     font-family: 'Birthstone', cursive;
      font-size: 2em;
-     margin-left: 2.75em;
+     margin: 0em 8em 0em;
      font-weight: bold;
      position: relative;
   }
@@ -249,7 +248,7 @@ a {
 
   .box-tao {
    display: flex;
-   margin: 25em 15em 0em;
+   margin: 19em 15em 0em;
    padding: 10em 5em;
    width: 55em;
    height: 110em;
@@ -339,16 +338,7 @@ a {
       left: 10%;
     }
 
-/*--michigan imagem--*/
-    .pict {
-    width: 60rem;
-    height: 40em; 
-    position: relative;
-    margin: 16em 6em 2rem;
-    }
 
-
-    /*---[Page 2]--Imagem Principal--- */
     
 
       
