@@ -217,22 +217,22 @@ a {
 
   .contact {
     display: flex;
+    align-content: center;
+    justify-content: center; 
     font-family: 'Rokkitt', serif;
-    font-size: 1.10em;
+    font-size: 1.20em;
     font-weight: 600;
     margin:2rem 1rem 0px;
-    align-content: center;
-      justify-content: center;  /* Alinha o objeto horizontalmente */
-      /* align-items: center; Alinha o objeto verticalmente */
-    
    }
 
    .about{
     font-family:'Lobster Two', cursive;
     font-size: 40px;
-    margin:2rem 15rem 0px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0em;
     color:goldenrod;
-    line-height: 1.1;
+    line-height: 1.0;
     text-decoration-line: underline;
 }
 
