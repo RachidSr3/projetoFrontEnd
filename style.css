@@ -187,7 +187,8 @@ a {
   background-size: cover;
 }
 
-  /*----------------------------1st Title Poem---------------------------- */
+
+  /*----------------------------Poetry propreties---------------------------- */
   .titulo {
     font-family: 'Birthstone Bounce', cursive;
     font-size: 2.40em;
@@ -209,10 +210,12 @@ a {
     width: 70rem;
     height: 20rem;
     margin: 6rem 13rem 6rem;
-    background-color: rgb(246, 246, 246);
-    opacity: 0.7;
-    border-radius:5%;
-    border: 8px groove black;
+    border-radius:25px 25px;
+    border-bottom: 8px groove goldenrod;
+    background: rgba(228, 216, 216, 0.2);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
   }
 
   .contact {
@@ -222,10 +225,10 @@ a {
     font-family: 'Rokkitt', serif;
     font-size: 1.20em;
     font-weight: 600;
-    margin:2rem 1rem 0px;
+    margin:1rem 1rem 0px;
    }
 
- .about{
+   .about{
     font-family:'Lobster Two', cursive;
     font-size: 40px;
     display: flex;
@@ -260,6 +263,7 @@ a {
 
   .tao {
   font-family: 'Josefin Sans', sans-serif;
+  margin: 0rem 0rem 0em;
   font-weight: bold;
   }
 
@@ -305,43 +309,11 @@ a {
     margin-left: 150px;
   }
 
-
-
-
-/*---------------------------------Imagem Color-Bubble-------------------------------*/
-
-
-   /*.picturesquare{
-     background-repeat: repeat-y;
-     background-image: url("/colours.jpg");
-
-   } */
-
-
-   /*----------[page 1] Imagem Bakground Principal-------*/
-    /*.picture {
-      
-     /* background-image: url("./colours.jpg");
-      background-repeat: repeat-y;
-      height: 250em;
-      width: 95.30rem;
-      position: absolute; 
-      /* [Absolute] permite a propriedade se manter fixa e independente 
-      [relative] permite o objeto se manter acima de outro objeto, em destaque, Above*/
-      /*-webkit-box-reflect: below 0px linear-gradient(transparent, rgb(223, 214, 93));
-      opacity: 0.8;*/
-    
-    
-
     .Texto {
       position: absolute;
       top: 30px;
       left: 10%;
     }
-
-
-    
-
       
   /*-------------------------------Input Caixa Section----------------------------*/
  .cxentrada {
@@ -368,27 +340,7 @@ a {
    margin-bottom: 0px;
    margin-left: 20px;
    padding-bottom: 0px 0px;
- }
-
-
-  /*------------!!!--------Contact Page[Anchor]---------!!!------------*/
-/*
-  .box {
-    width: 60em;
-    height: 20em;
-    bottom: 5em;
-    border-radius: 10%;
-    background-color: ghostwhite;
-    opacity: 0.8;
-    border: 3px solid;
-    border-style: dashed;
-    /* [inherit] Propriedade linka a um objeto majoritário, 
-    seguirá instantaneo os comandos do objeto major */
-  
-
-
-
-  
+ }  
 
    
    .aviao-de-papel {
@@ -400,8 +352,6 @@ a {
     float: left;
     clear: left;
   }
-
- 
 
 
   .box-2 {
