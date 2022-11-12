@@ -253,7 +253,7 @@ a {
    display: flex;
    flex-direction: column;
    margin: 19em 15em 0em;
-   padding: 3em 2em;
+   padding: 3em 0em;
    width: 55em;
    height: 110em;
    background-color: antiquewhite;
