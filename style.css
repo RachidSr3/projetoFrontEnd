@@ -209,7 +209,7 @@ a {
   .box{
     width: 70rem;
     height: 20rem;
-    margin: 6rem 13rem 6rem;
+    margin: 6rem 10rem 6rem;
     border-radius:25px 25px;
     border-bottom: 8px groove goldenrod;
     background: rgba(228, 216, 216, 0.2);
