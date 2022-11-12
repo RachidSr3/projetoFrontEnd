@@ -69,7 +69,7 @@ nav.navbar .menu { /*--- [page2] navbar--*/
   /*------------ Remove o padrao de estilização de lista. Hide bullets, remove padding. ------------------*/
   list-style: none;
   padding-bottom: 1em;
-  padding-left: 65em;
+  padding-left: 60em;
   /*-- Expande o menu afim de preencher o maior espaço possível no menubar ------------------*/
 } 
 
